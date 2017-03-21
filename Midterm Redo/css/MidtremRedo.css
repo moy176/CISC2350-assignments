@@ -1,0 +1,165 @@
+html, body, p{
+	
+	padding: 5px 5px 5px 5px;
+
+}
+body {
+	background-color:  #000000;
+}
+.MainDetails{
+    padding: 5px 5px 5px 5px;
+    color: white;
+    background-color: #000000;
+    height: 10%;
+    width: 100%;
+}
+            .MainDetails h1{
+                            background-color: #000000;
+                            border-style: solid;
+                            padding: 5px 5px 5px 5px;
+                            margin: 5px 5px 5px 5px;
+                            
+
+            }
+            .MainDetails h2{ 
+                            border-style: solid;   
+            }
+            .MainDetails img{    
+                            border-style: solid;
+            }
+            .MainDetails ul{
+                            border-style: solid;
+            }
+
+
+.Personal_Profile{
+    
+    border-style: solid;
+    background-color:  #a0aba4;
+
+}
+            .Personal_Profile h1{
+            padding: 5px 5px 5px 5px;
+            margin: 5px 5px 5px 5px;
+        }
+.Education{
+    border-style: solid;
+    background-color:  #a0aba4;
+
+}
+        .Education h1{
+            padding: 5px 5px 5px 5px;
+            margin: 5px 5px 5px 5px;
+        }
+.Work_Experience{
+background-color:  #a0aba4;
+}
+        .Work_Experience h1{
+            padding: 5px 5px 5px 5px;
+            margin: 5px 5px 5px 5px;
+
+        }
+.Key_Skills{
+background-color:  #a0aba4;
+padding: 5px 5px 5px 5px;
+margin: 5px 5px 5px 5px;
+
+}
+        .Key_Skills h1{
+            padding: 5px 5px 5px 5px;
+            margin: 5px 5px 5px 5px;
+
+        }
+        
+.Bio{
+
+            background-color:  #a0aba4;
+            padding: 5px 5px 5px 5px;
+            margin: 5px 5px 5px 5px;
+}
+        .Bio h1{
+
+            padding: 5px 5px 5px 5px;
+            margin: 5px 5px 5px 5px;
+
+        }
+
+#Pic img {
+    height: 100%;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 200px;
+    border-radius: 50%;
+}
+h1{
+    font-size: 2.25rem;
+
+    background-color: #F0FFFF;
+
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+    text-align: left;
+
+}
+h2{
+    text-align: left;
+}
+.header{
+  padding: 5px 5px 5px 5px;
+            margin: 5px 5px 5px 5px;
+
+}
+.center{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+@media print{
+    body{
+        width: 100%
+    }
+}
+
+
+@media only screen and (min-width: 375px) {
+    /*
+        styling for screens at least 375px wide
+        e.x. iPhone 6 screens
+     */
+}
+
+@media only screen and (min-width: 768px) {
+    /*
+        styling for screens at least 768px wide
+        e.x. many tablets
+     */
+}
+
+@media only screen and (min-width: 1020px) {
+    /*
+        styling for screens at least 1020px wide
+        e.x. laptops or desktops
+     */
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
