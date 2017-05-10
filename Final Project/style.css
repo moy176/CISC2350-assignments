@@ -1,0 +1,58 @@
+/*align background image size*/
+body {
+	background-image: url("IMG/image.jpg"); 
+}
+h4{
+	color: white;
+	background-color: black;
+}
+h2{
+	color: white;
+	padding: 1px;
+}
+.center{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
+.login{
+	    border-style: solid;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    color: white;
+    text-align: center;
+}
+.header{
+	color: white;
+	text-align: center;
+	font-size: 5rem;
+}
+@media print{
+    body{
+        width: 100%
+    }
+}
+
+
+@media only screen and (min-width: 375px) {
+    /*
+        styling for screens at least 375px wide
+        e.x. iPhone 6 screens
+     */
+}
+
+@media only screen and (min-width: 768px) {
+    /*
+        styling for screens at least 768px wide
+        e.x. many tablets
+     */
+}
+
+@media only screen and (min-width: 1020px) {
+    /*
+        styling for screens at least 1020px wide
+        e.x. laptops or desktops
+     */
+}
